@@ -1,0 +1,107 @@
+name: PixeltectsCore
+version: 1.0
+api-version: 1.14
+depend: [WorldEdit]
+main: com.pixeltects.core.Pixeltects
+author: Riley
+description: PixeltectsCore
+commands:
+  outline:
+   description: Command used for outlining parks
+   aliases: [mp, markpoint, point, mark]
+  show:
+   description: Command used to manage show playlists
+  repeat:
+   description: Command used to repeat other commands
+   aliases: [cmdrepeat, commandrepeat]
+  buildfirework:
+   description: Command used to create fireworks and fade them live.
+  setblock:
+   description: Command used to set blocks for certain timeframes.
+  rebuild:
+   description: Command used to build schematics as part of shows.
+   aliases: [rb]
+  tickwait:
+   description: Command used to wait before executing a command.
+  fountain:
+   description: Command used to create moving fountains.
+  launch:
+   description: Command used to launch objects with particle effects.
+   aliases: [launchobject]
+  laser:
+   description: Command used to create lasers from one location to another.
+   aliases: [line]
+  spotlight:
+   description: Command used to create large spotlights.
+   aliases: [beam]
+  particleblock:
+   description: Command used to create block outline particles.
+  killentity:
+   description: Command used to remove entities in a radius, world or location.
+   aliases: [removeentity, entitykill]
+  moveplayers:
+   description: Command used to move players in radius, world or location.
+   aliases: [teleportgroup]
+  setpassenger:
+   description: Command used to set players as passengers of entities.
+   aliases: [entityride]
+  flatride:
+   description: Experimental Command
+  queuetest:
+   description: Experimental Command
+  perms:
+   description: Permission Manager Command
+  gmc:
+   description: Essentials Command
+   aliases: [creative]
+  gms:
+   description: Essentials Command
+   aliases: [survival]
+  gma:
+   description: Essentials Command
+   aliases: [adventure]
+  gmsp:
+   desription: Essentials Command
+   aliases: [spectator]
+  invsee:
+   description: Essentials Command
+  clearinventory:
+   description: Essentials Command
+   aliases: [clear, ci]
+  speed:
+   description: Essentials Command
+   aliases: [flyspeed, walkspeed]
+  tp:
+   description: Essentials Command
+   aliases: [tpo, teleport]
+  time:
+   description: Essentials Command
+   aliases: [settime, changetime, timeset]
+  tps:
+   description: Essentials Command
+   aliases: [lag, gc]
+  hat:
+   description: Essentials Command
+   aliases: [helmet]
+  rescuetps:
+   description: Essentials Command
+  seen:
+   description: Essentials Command
+  join:
+   description: Transfer across the network infrastructure
+   aliases: [server]
+  updatecachedservers:
+   description: OP command to update /join and other things
+   aliases: [ucs]
+  balloontest:
+   description: Experimental Command
+  debugstick:
+   description: Command used to give yourself a debug stick.
+  playtime:
+   description: Command used to check yours and other's playtime.
+   aliases: [pt, onlinetime]
+  vomit:
+   description: Command used to vomit.
+   aliases: [besick, throwup]
+  animate:
+   description: Command used to animate armorstands
